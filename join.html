@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="xx.css">
+    <link rel="shortcut icon" href="/images/loto.jpg" type="image/x-icon">
+    <title>B-News</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <style>
+   
+    
+  .nav-tabs li a {
+    color: #777;
+  }
+
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+   </style>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-auth.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C1NM4YR9SM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C1NM4YR9SM');
+
+
+
+
+</script>
+    <!--Adding Bootstrap-->    
+
+
+    
+    <title>Login & Signup Firebase</title>
+   
+</head>
+<body>
+  <header>
+    <!--header-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#myPage">B-News</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar" >
+          <ul class="nav navbar-nav navbar-right" style="text-transform: uppercase;">
+            <li><a href="/index.html">e-timetable</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="kik">
+     <h2 style="margin-top: 20px; font-size: 20px;">Register and get to know everything going on in your school uncescored.
+      Hurry up now,cause 220 students  has been successfully added to the family
+    </h2>
+    <div style="display: flex;" class="logo-tex pim">
+
+      <div class="main-img">
+        <img class="ink" src="loto.jpg" alt="hacker logo" />
+      </div>
+   
+          
+          <div class="form">
+            <input type="text" class="form-control shadow-sm" id="txtEmail" name="email" placeholder="Email address" >
+          
+            <input type="password" class="form-control shadow-sm" id="txtPassword" name="password"placeholder="password"  >
+            
+           <button type="submit" class="btn btn-primary shadow" id="btnLogin">Login</button>
+            <button type="submit" class="btn btn-primary shadow" id="btnSignup">Join Now</button>
+           
+       
+          </div>
+       
+    </div>
+  </div>
+  <footer id="footer" style=" height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 20px;">
+    <h2>*If you’d like to get featured on our website Spotlight, click <a style="color: blue;" href="https://wa.me/2349138721435">here</a> to share your story with us. *</h2>
+    <div  class="social-icons">
+    
+      <a href="http://www.twitter.com/Temiq5/" target="_blank" style="color: unset; text-decoration:none">
+       <i class="fab fa-twitter">( x )</i>
+      </a>
+      <a href="mailto:temiq3@gmail.com"style="color: unset; text-decoration:none" >
+       <i class="fas fa-at">Email</i>
+      </a>
+      <a href="https://wa.me/2349138721435" target="_blank" style="color: unset; text-decoration:none">
+       <i class="fas fa-mobile-alt">community</i>
+      </a>
+   </div>
+   <p>**Copyright 2024 InsideBowen | Privacy Policy | Media Policys**</p>
+  </footer>
+<script>
+  
+  (function () {
+    
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyBR70hFqGEoQj0tdolwFeuMyh9thHRf8Ug",
+    authDomain: "insidebowen-6fc2d.firebaseapp.com",
+    projectId: "insidebowen-6fc2d",
+    storageBucket: "insidebowen-6fc2d.appspot.com",
+    messagingSenderId: "787790307908",
+    appId: "1:787790307908:web:f11a73e952f27104e35211"
+    };
+    // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+ 
+    //Get Elements
+    const txtEmail = document.getElementById("txtEmail");
+    const txtPassword = document.getElementById("txtPassword");
+    const btnLogin = document.getElementById("btnLogin");
+    const btnSignup = document.getElementById("btnSignup");
+  
+    //Add Login Event
+    btnLogin.addEventListener('click', e => {
+        const email = txtEmail.value;
+        const password = txtPassword.value;
+  
+        const auth = firebase.auth();
+  
+        //sign in with firebase auth
+        auth.signInWithEmailAndPassword(email, password).then(user =>{
+            alert("Login Successful :)");
+        }).catch(err => {
+            alert(err.message);
+        });
+        
+    });
+  
+    //Add Signup Event
+    btnSignup.addEventListener('click', e => {
+  
+        //get email and password
+        const email = txtEmail.value;
+        const password = txtPassword.value;
+  
+        const auth = firebase.auth();
+  
+        //sign in with firebase auth
+        const promise = auth.createUserWithEmailAndPassword(email, password).then(user => {
+            alert("Signup Successful :)");
+             window.location.href = 'index.html';
+            window.location.href = 'index.html';
+        }).catch(err => {
+            alert(err.message);
+        });
+  
+    });
+  
+  
+  }());
+  function toggleMenu() {
+  var menu = document.getElementById("dropdown-menu");
+  if (menu.classList.contains("show")) {
+    menu.classList.remove("show");
+  } else {
+    menu.classList.add("show");
+  }
+}
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+  document.getElementById("dark").classList.toggle("hidden");
+  document.getElementById("dar").classList.toggle("hidden");
+}
+</script>
+
+</body>
+</html>

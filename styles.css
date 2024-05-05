@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #a0aecd;
+  width: 100%;
+  color: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main {
+  width: fit-content;
+  margin: auto;
+}
+img {
+  align-items: center;
+  justify-content: center;
+}
+img:hover {
+  opacity: 0.5;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.two {
+  background-color: #1a2238;
+  width: fit-content;
+  padding: 18px;
+}
+.threee {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.inner {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+input {
+  width: 130px;
+  height: 25px;
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+}
+button {
+  width: 80px;
+  border-radius: 40px;
+  padding: 5px;
+}
+button:hover {
+  background-color: #1a2238;
+}
+.three {
+  width: fit-content;
+  height: 150px;
+  padding: 20px;
+  align-items: center;
+}
+.fourr {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  margin: auto;
+  margin-right: 0;
+}
+.four {
+  width: fit-content;
+  display: flex;
+  justify-content: flex-end;
+}
+.four div {
+  width: 190px;
+  max-width: 150px;
+  margin-right: 60px;
+  background-color: #ffffff;
+}
+div p {
+  padding: 7px;
+  margin: auto;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 30px;
+  font-style: italic;
+  color: #fff;
+}
+.h {
+  font-style: italic;
+  color: #fff;
+  font-weight: 600;
+}
+.five {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.five a {
+  text-decoration: none;
+  font-size: 15px;
+}
+.five a:hover {
+  color: rgb(26, 21, 21);
+}
+.p {
+  font-size: 15px;
+  color: #000;
+}
+#demo {
+  color: #fff;
+}
+/*join.html*/
+.pim {
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 49px;
+}
+.kik {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  justify-content: center;
+}
+.kik h2 {
+  font-style: italic;
+  padding-top: 40px;
+  color: #a60000;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.form input {
+  width: 260px;
+  padding: 10px;
+  color: #181a1b;
+  border: 2px solid #050505;
+  font-size:15px;
+}
+.form button {
+  width: 260px;
+  border-radius: 30px;
+  background-color: #a60000;
+  padding: 16px;
+  transition: 0.2s ease-in;
+}
+.form button:hover {
+  background-color: #181a1b;
+}
+#btnLogin {
+  display: none;
+}
+/*responsive*/
+@media (max-width: 900px) {
+  
+ footer h2 {
+        font-size: 14px;
+padding-top: 10px;
+  }
+
+  .one {
+    width: 100%;
+    display: block;
+  }
+  .pim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lol img {
+    width: 100%;
+  }
+}
+@media (min-width: 600px) and (max-width:900px){
+  .pressed-text {
+    width: 450px;
+  
+  }
+  .pressed-text-img {
+    width: 500px;
+    
+  }
+}
+
+
+@media (max-width:960px){
+  .social-icons a{
+    font-size: 12px;
+      }
+}
+footer {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 20px;
+}
+footer h2 {
+  border-bottom: 2px solid #a60000;
+  padding: 20px;
+  font-style: italic;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+.social-icons a {
+  padding: 18px;
+  font-size: 16px;
+
+  text-decoration: none;
+  transition: transform 0.3s ease-out;
+  text-transform: lowercase;
+}
+
+.social-icons a:hover {
+  padding-bottom: 8px;
+  border-bottom: 4px solid #a73100;
+}
+footer p {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #a60000;
+  padding: 20px;
+  font-style: italic;
+
+  text-transform: lowercase;
+}
